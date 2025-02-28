@@ -1,0 +1,347 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.nav
+{
+    background-color: black;
+    height: 4.5pc;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+    
+
+.tab
+{
+    width: 30%;
+    
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif; 
+    align-items: center;
+    padding-left: 40px;
+    
+    
+}
+
+#tabs
+{
+    height: 35px;
+    width: 90px;
+    padding-top: 10px;
+    align-items: center;
+    text-align: center; 
+    position: relative;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+
+    
+}
+
+#tabs:hover
+{
+    height: 35px;
+    width: 90px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgb(90, 195, 224);
+    color: white;
+    font-style: bold;
+    background-color: rgb(90, 195, 224);
+    transition: 0.5s;
+    color: black;
+}
+
+
+
+.h2
+{
+    align-items: center;
+    padding-bottom: 5px;
+    padding-right: 30px;
+    color: white;
+    font-size: 25px;
+}
+
+.box1
+{
+    height: 41pc;
+    width: auto;
+    border-top:2px solid rgb(90, 195, 224);
+    background-color: black;
+}
+
+h1
+{
+    
+    width: 30%;
+    color: white;
+    position: relative;
+    top: 27%;
+    left: 15%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 50px;
+}
+
+
+h3{
+    width: 27%;
+    color: rgb(90, 195, 224);
+    position: relative;
+    top: 27%;
+    left: 15%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 25px;
+}
+
+p{
+    padding-top:5px ;
+    width: 30%;
+    color: white;
+    position: relative;
+    top: 27%;
+    left: 15%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 18px;
+}
+
+#pic
+{
+    width: 25%;
+    color: white;
+    position: relative;
+    bottom: 27%;
+    left: 65%;
+    border: 10px solid rgb(90, 195, 224);
+    border-radius: 79%;
+    
+}
+
+#pic:hover
+{
+    transition: 0.5s;
+    box-shadow: 0 0 20px rgba(52, 152, 219, 0.8);
+}
+
+
+.box2
+{
+    background-color: rgb(86, 222, 222);
+    width: auto;
+    height: 30pc;
+    
+}
+
+h2#ab
+{
+    width: 27%;
+    color: black;
+    position: relative;
+    display: flex;
+    top: 5%;
+    left: 44%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 50px;
+}
+
+
+p1
+{
+    top: 5%;
+    color: black;
+    position: relative;
+    display: flex;
+    text-align: center;
+    width: 75%;
+    padding-left: 13.5%;
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    font-size: 25px;
+    
+}
+
+.box3
+{
+    background-color: rgb(129, 231, 231);
+    width: auto;
+    height: 45pc;
+}
+
+h1#con
+{
+    left: 41%;
+    top: 5%;
+    
+}
+
+.box4
+{
+    background-color: rgb(3, 3, 4);
+    width: auto;
+    height: 20pc;
+}
+
+h1#con1
+{
+    left: 43%;
+    color: rgb(12, 12, 13);
+    top: 5%;
+    margin-bottom: 2%;
+}
+
+
+/*Card*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Products
+{
+    display: inline-flex;
+    margin-left: 100px;
+    
+    
+}
+
+.main
+{
+    margin: 40px;
+    width: 25%;
+    background-color: rgb(244, 239, 239);
+    height: 30vw;
+    
+    
+    
+}
+
+.main2
+{
+    padding: 10px;
+}
+
+.image img
+{
+    width: 100%;
+    height: 25vh;
+    transition: all .5s ease-in-out;
+    border-radius: 15px;
+    
+}
+
+.image img:hover
+{
+    transform: scale(1.08);
+}
+
+
+.name
+{    
+    margin-top: 15px;
+    text-align: center;
+}
+
+.intro
+{
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px;
+    color: black;
+}
+
+.cost
+{
+    margin-top: 15px;
+    text-align: center;
+    
+}
+
+.star img
+{
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 18px;
+}
+
+.button #click
+{
+    border: none;
+    margin-top: 3%;
+    text-align: center;
+    width: 100%;
+    height: 5vw;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-display: bold;
+    background-color: rgb(160, 153, 153);
+    
+}
+
+.button #click:hover
+{
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+
+
+
+
+
+.cont1
+{
+    position: relative;
+    top: 15%;
+    left: 40%;
+}
+
+#cont
+{
+    height: 30px;
+    width: 10vw;
+    margin-left: 10px;
+    
+
+}
+
+.cont2
+{
+
+    
+    margin: 20px;
+    margin-left: 20px;
+    padding-right: 20px;    
+}
+
+.tt
+{
+    position: absolute;
+    height: 40px;
+    margin-left: 20px;
+    width: 80px;
+    text-align: center;
+    color: rgb(18, 18, 18);
+    background-color:white;
+
+}
+
+.tt:hover{
+    background-color:  rgb(7, 1, 1);
+    transition: 0.4s;
+    color:  rgb(254, 251, 251);
+}
